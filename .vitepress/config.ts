@@ -155,6 +155,16 @@ const sidebar: DefaultTheme.SidebarGroup[] = [
       { text: "演示", link: "/_posts/Mermaid/演示" },
     ],
   },
+  {
+    text: "md",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      {
+        text: "md语法", link: "/_posts/md/md语法"
+      }
+    ]
+  }
 ];
 
 export default withMermaid({
